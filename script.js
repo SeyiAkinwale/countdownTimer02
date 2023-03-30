@@ -4,9 +4,9 @@ alert(deadline);
 
 function getTimeRemaining(endtime){
    const total = Date.parse(endtime) - Date.parse(new Date());
-  const seconds = Math.floor((total/1000)%60);
-   // const minutes = Math.floor((total/1000/60)$60);
-   // const hours = Math.floor((total/(1000*60*60))%24);
+   const seconds = Math.floor((total/1000)%60);
+   const minutes = Math.floor((total/1000/60)%60);
+   const hours = Math.floor((total/(1000*60*60))%24);
    // const days = Math.floor(total/(1000*60*60*24));
   return 7;
   //return{total, days, hour, minutes, seconds};
