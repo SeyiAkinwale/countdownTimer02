@@ -1,4 +1,4 @@
 function myFunction() {
 //alert('hello world!');
-  document.getElementById("demo").innerHTML = Paragraph changed."";
+  document.getElementById("demo").innerHTML = "Playing around with JS";
 }
